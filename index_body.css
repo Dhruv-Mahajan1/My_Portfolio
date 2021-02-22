@@ -1,0 +1,7 @@
+.main .left img
+{
+	width: 250px;
+}
+.main.right{
+	color: var(--white)
+}

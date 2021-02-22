@@ -1,0 +1,205 @@
+
+
+:root                                               /*variables declaration*/
+{ --cyan : #3DCFD3;  
+  --dark : #161616;
+  --white: #FFFFFF;
+  --light: #F2F2F2;
+  --ternary: #898989;
+}
+html{
+	scroll-behavior: smooth;
+}
+.flex{
+	display: flex;
+}
+.flex-1{
+	flex: 1;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.btn{                                                 /*properties of contact*/
+	padding: 0.8rem 2rem;
+	color: var(--dark);
+	background: var(--cyan);
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: 600;
+	border:2px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+
+}    
+.items-center{
+	align-items: center;
+} 
+
+img{                                                    /*properties iitj logo*/
+	border-radius: 25px;
+}
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+
+}
+
+
+header
+{
+	background: var(--dark);
+	clip-path: polygon(0 0, 100% 0 , 100% 100% , 70% 87% , 0 100%);
+}
+
+.container
+{   max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header nav .left_side a{                             /*properties of hyperlinks*/
+	color: var(--white);
+	text-decoration: none;
+	margin-right: 3rem; 
+	text-transform: uppercase;
+}
+
+header nav{
+	padding: 2rem 0;}
+header nav .branding{                                /*properties of iitj logo*/
+	margin-right: 4rem;
+
+}	
+
+.main .left img
+{
+	width: 400px;
+	border-radius: 25px;
+}
+.main .right
+{
+	color: var(--white);
+	margin-top: -7rem;
+
+}
+.main .right h6
+{
+	font-size: 1.2rem;
+	color: var(--cyan);
+}
+.main .right h1
+{
+	font-size: 4rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+}
+.main .right h1 span
+{
+	color: var(--cyan);
+}
+.main .right p
+{
+	line-height: 1.9;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+
+}
+
+section{
+	padding: 6rem 0;
+}
+
+section.about h1
+{
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 400;
+	
+}
+section.about h1 span
+{
+	color: var(--cyan);
+}
+section.about h3{
+	font-size: 2rem;
+	margin-top:  1.5rem;
+	font-weight: 400;
+}
+section.about p
+{
+	margin-top: 0.9rem;
+	font-size: 1.2rem;
+	color: var(--ternary);
+	line-height: 2;
+	margin-bottom: 2rem;
+
+}
+section.about social
+{
+	display: flex;
+}
+section.about .social a{
+	
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-right: o.6rem;
+
+}
+section.about .social a img
+{
+
+	padding: 0.5rem;
+
+}
+.section_heading{
+	color: var(--dark);
+	text-align: center;
+	margin-bottom: 6rem;
+	line-height: 0.5;
+
+}
+.section_heading span
+{
+	color: var(--cyan);
+}
+section.skills{
+	background: var(--light);
+}
+section.skills .block_carts
+{   margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap:2rem;
+	grid-row-gap: 1rem;
+}
+section.skills .block_carts .blocks
+{
+	background: var(--white);
+	padding: 2rem 1rem;
+	position: relative;
+	padding: 4rem;
+	text-align: center;
+}
+section.skills .block_carts .blocks img
+{
+	position: absolute;
+	top: -3rem;
+	left: 35%;
+}
+section.skills .block_carts .blocks p
+{   margin-top: 0.9rem;
+	color: var(--ternary);
+}
+section.contact .block-cards
+{   margin-top: 1rem;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-column-gap:2rem;
+	grid-row-gap: 1rem;
+}
